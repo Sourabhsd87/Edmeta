@@ -1,0 +1,47 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn{
+  border: none;
+  background: rgb(31, 180, 147);
+  color: white;
+  margin: 5px;
+}
+
+.btn:hover{
+  background: rgb(52, 218, 182);
+  color: white;
+  transform: scale(1.1);
+}
+
+.card-header{
+  background: rgb(137, 137, 137);
+  color: white;
+}
+
+.card-inner{
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.21)
+}
+
+.card-head {
+  margin-top: 10px;
+  font-size: 30px ;
+}
+
+label{
+  text-align: center;
+}
+
+.card-inner .card-title ,.card-inner .card-body a{
+  transition: font-size 0.2s ease-in-out;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .card-inner .card-title ,.card-inner .card-body a{
+    /* Your desired font size adjustments here */
+    
+    font-size: 70% !important; /* Example - change font size to 0.8rem */
+    transition: font-size 0.2s ease-in-out;
+  }
+}
