@@ -3,6 +3,7 @@ import Dashboard from "./components/Admin/Dashboard";
 import Navbar from "./components/common/Navbar";
 import Sidebar from "./components/common/Sidebar";
 import './styles/App.css'
+import MainContent from "./components/MainContent";
 
 function App() {
 
@@ -18,7 +19,7 @@ function App() {
         <Sidebar isOpen={isSidebarOpen} />
         <div className="content container" >
           <Navbar toggleSidebar={toggleSidebar} />
-          <Dashboard />
+          <MainContent />
         </div>
       </div>
 
